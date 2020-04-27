@@ -16,6 +16,6 @@ public class InvoiceSentState extends InvoiceState {
 
     @Override
     public void processPayment() {
-        getInvoice().processPaymentForInvoice();
+        getInvoice().payInvoice();
     }
 }

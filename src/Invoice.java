@@ -48,12 +48,12 @@ public class Invoice {
         System.out.println ("A new invoice has been drawn up.");
     }
 
-    protected void approveInvoice () {
+    protected void sendInvoice () {
         state = sentState;
-        System.out.println ("The invoice has been approved");
+        System.out.println ("The invoice has been approved and sent to the customer.");
     }
 
-    protected void processPaymentForInvoice () {
+    protected void payInvoice () {
         state = paidState;
         System.out.println ("The customer has paid the invoice.");
     }

@@ -11,7 +11,7 @@ public class InvoiceConceptState extends InvoiceState {
 
     @Override
     public void approve() {
-        getInvoice().approveInvoice();
+        getInvoice().sendInvoice();
     }
 
     @Override
